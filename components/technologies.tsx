@@ -13,7 +13,7 @@ export default function Technologies() {
             <TechCard techName={"HTML5"} imageSrc={"html.svg"}/>
             <TechCard techName={"JavaScript"} imageSrc={"javascript.svg"}/>
             <TechCard techName={"TypeScript"} imageSrc={"typescript.svg"}/>
-            <TechCard techName={"CSS3"} imageSrc={"CSS.svg"}/>
+            <TechCard techName={"CSS3"} imageSrc={"css.svg"}/>
             <TechCard techName={"React"} imageSrc={"react.svg"}/>
             <TechCard techName={"Tailwind"} imageSrc={"tailwind.svg"}/>
             <TechCard techName={"Bootstrap"} imageSrc={"bootstrap.svg"}/>

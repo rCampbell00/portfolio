@@ -41,8 +41,8 @@ export function ExpandableInfoCard({name, imageSrc, description, githubSrc}: Exp
           <a href={`${githubSrc}`}  onClick={e => {e.stopPropagation()}}>  
             <Button className={"flex flex-row space-x-1"}>
               <p>View Code</p>
-              <Image src={"/github-mark-white.svg"} className="block dark:hidden" width={20} height={20} alt="View Code"/>
-              <Image src={"/github-mark.svg"} className="hidden dark:block" width={20} height={20} alt="View Code"/>
+              <Image src={"github-mark-white.svg"} className="block dark:hidden" width={20} height={20} alt="View Code"/>
+              <Image src={"github-mark.svg"} className="hidden dark:block" width={20} height={20} alt="View Code"/>
             </Button>            
           </a>
           }

@@ -7,7 +7,7 @@ export default function About() {
     <div id='about' className='flex flex-col justify-between align-center text-center mt-20'>
       <div className='flex flex-col md:flex-row mt-10'>        
         <div className='md:mr-20 mb-3'>
-          <Image className='rounded-full overflow-hidden' src={"/pfp.jpg"} alt={"picture"} width={200} height={100} />
+          <Image className='rounded-full overflow-hidden' src={"pfp.jpg"} alt={"picture"} width={200} height={100} />
         </div>
         <div className='mx-auto md:w-[500px] w-60'>
           <h1 className='text-4xl md:text-5xl mb-12'>Hi, I&apos;m Reece</h1>
